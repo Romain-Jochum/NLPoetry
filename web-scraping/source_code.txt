@@ -1,0 +1,320 @@
+<ul id="poemes_a" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-louise-ackermann/">Louise Ackermann (1813-1890)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-theodore-agrippa-d-aubigne/">Théodore Agrippa d'Aubigné (1552-1630)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-jean-aicard/">Jean Aicard (1848-1921)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-agenor-altaroche/">Agénor Altaroche (1811-1884)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-henri-frederic-amiel/">Henri-Frédéric Amiel (1821-1881)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-auguste-angellier/">Auguste Angellier (1848-1911)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-guillaume-apollinaire/">Guillaume Apollinaire (1880-1918)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-louis-aragon/">Louis Aragon (1897-1982)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-sophie-d-arbouville/">Sophie d'Arbouville (1810-1850)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-antoine-vincent-arnault/">Antoine-Vincent Arnault (1766-1834)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-madeleine-de-l-aubespine/">Madeleine de l'Aubespine (1546-1596)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-jean-auvray/">Jean Auvray (1580-1624)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-joseph-autran/">Joseph Autran (1813-1877)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-felix-arvers/">Félix Arvers (1806-1850)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_b" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-victoire-babois/">Victoire Babois (1760-1839)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-theodore-de-banville/">Théodore de Banville (1823-1891)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-charles-baudelaire/">Charles Baudelaire (1821-1867)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-neree-beauchemin/">Nérée Beauchemin (1850-1931)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-alphonse-beauregard/">Alphonse Beauregard (1881-1924)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-remy-belleau/">Rémy Belleau (1528-1577)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-nicolas-boileau/">Nicolas Boileau (1636-1711)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_c" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-louise-colet/">Louise Colet (1810-1876)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-francois-coppee/">François Coppée (1842-1908)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-tristan-corbiere/">Tristan Corbière (1867-1920)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-pierre-corneille/">Pierre Corneille (1606-1684)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-charles-cros/">Charles Cros (1842-1888)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_d" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-joachim-du-bellay/">Joachim Du Bellay (1522-1560)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-pierre-jean-de-beranger/">Pierre-Jean De Béranger (1780-1857)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-jacques-delille/">Jacques Delille (1738-1813)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-marceline-desbordes-valmore/">Marceline Desbordes-Valmore (1786-1859)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-charles-dovalle/">Charles Dovalle (1807-1829)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-henri-durand/">Henri Durand (1818-1842)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_e" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-alphonse-esquiros/">Alphonse Esquiros (1812-1876)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_f" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-jean-pierre-claris-de-florian/">Jean-Pierre Claris de Florian (1755-1794)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-antoine-fontaney/">Antoine Fontaney (1803-1837)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-anatole-france/">Anatole France (1844-1924)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_g" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-theophile-gautier/">Théophile Gautier (1811-1872)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-charles-guerin/">Charles Guérin (1873-1907)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-charles-le-goffic/">Charles Le Goffic (1863-1932)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_h" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-arsene-houssaye/">Arsène Houssaye (1815-1896)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-victor-hugo/">Victor Hugo (1802-1885)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_i" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/"></a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_j" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/"></a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_k" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/"></a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_l" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-jean-de-la-fontaine/">Jean de La Fontaine (1621-1695)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-alphonse-de-lamartine/">Alphonse de Lamartine (1790-1869)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-antoine-de-latour/">Antoine de Latour (1808-1881)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-charles-marie-rene-leconte-de-lisle/">Charles Marie René Leconte de Lisle (1818-1894)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-andre-lemoyne/">André Lemoyne (1822-1907)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_m" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-francois-de-malherbe/">François de Malherbe (1555-1628)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-stephane-mallarme/">Stéphane Mallarmé (1842-1898)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-albert-merat/">Albert Mérat (1840-1909)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-claude-mermet/">Claude Mermet (1550-1601)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-alfred-de-musset/">Alfred de Musset (1810-1857)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_n" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-gerard-de-nerval/">Gérard de Nerval (1808-1855)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-anna-de-noailles/">Anna de Noailles (1876-1933)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-germain-nouveau/">Germain Nouveau (1851-1920)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_o" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-charles-d-orleans/">Charles d'Orléans (1394-1465)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_p" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-evariste-de-parny/">Évariste de Parny (1753-1814)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-amedee-pommier/">Amédée Pommier (1804-1877)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_q" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/"></a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_r" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-jean-racine/">Jean Racine (1639-1699)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-arthur-rimbaud/">Arthur Rimbaud (1854-1891)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-francois-marie-robert-dutertre/">François-Marie Robert-Dutertre (1815-1898)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-maurice-rollinat/">Maurice Rollinat (1846-1903)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-pierre-de-ronsard/">Pierre de Ronsard (1524-1585)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_s" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-george-sand/">George Sand (1804-1876)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-charles-augustin-sainte-beuve/">Charles-Augustin Sainte-Beuve (1804-1869)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-albert-samain/">Albert Samain (1858-1900)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-cecile-sauvage/">Cécile Sauvage (1883-1927)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-rene-francois-sully-prudhomme/">René-François Sully Prudhomme (1839-1907)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_t" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-amable-tastu/">Amable Tastu (1798-1885)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-paul-jean-toulet/">Paul-Jean Toulet (1867-1920)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_u" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/"></a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_v" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-emile-verhaeren/">Émile Verhaeren (1855-1916)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-paul-verlaine/">Paul Verlaine (1844-1896)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-voltaire/">Voltaire (1694-1778)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_w" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/"></a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_x" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/"></a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_y" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/"></a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_z" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/"></a>
+                            </li>
+                        </ul>

@@ -12,7 +12,7 @@ import re
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Specify the file path relative to the script's directory
-source_code_txt_path = os.path.join(script_dir, "source_code.txt")
+source_code_txt_path = os.path.join(script_dir, "source_code_for_theme.txt")
 
 
 def author_links_scraper():
@@ -27,19 +27,18 @@ def author_links_scraper():
         # Find all 'ul' elements with class 'reglage-menu'
         ul_elements = soup.find_all('ul', class_='reglage-menu')
 
-        # Initialize an empty list to store author links
-        author_list = []
+        # Initialize an empty list to store theme links
 
         # Loop through each 'ul' element to extract author links
         for ul in ul_elements:
             # Find all 'a' tags within the 'ul' element
-            author_tags = ul.find_all('a')
+            theme_tags = ul.find_all('a')
             # Extract the href attribute from each 'a' tag and append to author_links list
-            for author_tag in author_tags:
-                author_list.append(author_tag['href'])
+            for theme_tag in theme_tags:
+                theme_list.append((theme_tag['href'], theme_tag.text))
 
         # Print the list of author links
-        return author_list
+        return theme_list
 
     except FileNotFoundError:
         print(f"Error: File '{source_code_txt_path}' not found.")
@@ -47,27 +46,28 @@ def author_links_scraper():
         print(f"Error: {e}")
 
 
-def scrape_poem_links(author_list):
+def scrape_poem_links(themes_list):
     poem_list = []
     # Loop through each author link
-    for author_link in author_list:
-        response = requests.get(author_link)
+    for theme_link in themes_list:
+        response = requests.get(theme_link[0])
         soup = BeautifulSoup(response.content, "html.parser")
 
         # Find all elements with class "w3-panel"
         poem_elements = soup.find_all('div', class_='w3-panel')
+        theme = soup.find('x')
 
         # Extract poem links
         for poem_element in poem_elements:
             poem_link = poem_element.find('a')['href']
-            poem_list.append(poem_link)
+            poem_list.append((poem_link, theme_link[1]))
     return poem_list
 
 
 # Function to check link status and scrape poem content
 def check_and_scrape_poem(poem_link):
     try:
-        response = requests.get(poem_link)
+        response = requests.get(poem_link[0])
         if response.status_code == 200:
             soup = BeautifulSoup(response.content, "html.parser")
 
@@ -89,13 +89,14 @@ def check_and_scrape_poem(poem_link):
             poem_text = BeautifulSoup(poem_text, 'html.parser').text
 
             # Append data to respective lists
+            themes.append(poem_link[1])
             authors.append(author)
             titles.append(title)
             books.append(book)
             years.append(year)
             poems.append(poem_text)
         else:
-            print(f"Skipping link: {poem_link}")
+            print(f"Skipping link: {poem_link[0]}")
     except Exception as e:
         print(f"Error: {e}")
 
@@ -112,19 +113,22 @@ def df_builder(poem_list):
     dataframe = pd.DataFrame({
         'Author': authors,
         'Book': books,
-        'Title': titles,
         'Year': years,
+        'Title': titles,
+        'Theme': themes,
         'Poem': poems
     })
     return dataframe
 
 
 """ Time for fun"""
+theme_list = []
 authors = []
 books = []
 years = []
 poems = []
 titles = []
+themes = []
 
 author_links = author_links_scraper()
 poem_links = scrape_poem_links(author_links)

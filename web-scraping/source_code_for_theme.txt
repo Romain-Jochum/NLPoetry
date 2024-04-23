@@ -1,0 +1,519 @@
+ <ul id="poemes_a" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-absence/">Absence</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-adieu/">Adieu</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-age/">Âge</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-aimer/">Aimer</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-amants/">Amants</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-ames/">Âmes</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-amis/">Amis</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-amitie/">Amitié</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-damour/">Amour</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-amoureux/">Amoureux</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-amour-maternel/">Amour maternel</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-amour-amitie/">Amour / amitié</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-ange/">Ange</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-animaux/">Animaux</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-art/">Art (L')</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-automne/">Automne</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-avenir/">Avenir</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-aveux/">Aveux</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_b" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-baiser/">Baiser</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-baisers-damour/">Baisers d'amour</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-beaute/">Beauté</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-belles-femmes/">Belles femmes</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-blessures-damour/">Blessures d'amour</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-bonheur/">Bonheur</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_c" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-calme/">Calme (Le)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-caresses/">Caresses</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-chagrin/">Chagrin</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-charite/">Charité</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-chastete/">Chasteté</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-coeur/">Cœur</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-coeur-brise/">Cœur brisé</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-conseil/">Conseil</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-consolation/">Consolation</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-corps/">Corps</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-couple/">Couple</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-crainte/">Crainte</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-croyance/">Croyance</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_d" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-deception/">Déception</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-deception-amoureuse/">Déception amoureuse</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-declaration-damour/">Déclaration</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-dernieres-volontes/">Dernières volontés</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-desespoir/">Désespoir</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-desir/">Désir</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-dieu/">Dieu</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-douleur/">Douleur</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_e" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-enfants/">Enfants</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-esperance/">Espérance</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-espoir/">Espoir</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-esprit/">Esprit</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-eternite/">Éternité</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_f" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-famille/">Famille</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-femmes/">Femmes</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-fete-des-peres/">Fêtes des pères</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-fille/">Fille</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-fleurs/">Fleurs (Les)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-frisson/">Frissons (Les)</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_g" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-gloire/">Gloire</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_h" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-habitude/">Habitude</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-haine/">Haine</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-hermaphrodite/">Hermaphrodite</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-heureux/">Heureux</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-hiver/">Hiver</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-hommes/">Hommes</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_i" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-immortalite/">Immortalité</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-infidelite/">Infidélité</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-infini/">Infini</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-inquietude/">Inquiétude</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-ivresse/">Ivresse</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_j" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-jalousie/">Jalousie</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-je-taime/">Je t'aime</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-jeune-fille/">Jeune fille</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-jeunesse/">Jeunesse</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_k" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/">0 réponse !</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_l" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-laideur/">Laideur</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-larmes/">Larmes</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_m" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-maitresse/">Maîtresse</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-malheur/">Malheur</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-malheureux/">Malheureux</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-mariage/">Mariage</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-memoire/">Mémoire</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-mensonge/">Mensonge</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-mer/">Mer (La)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-mere/">Mère (La)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-meurtrissure/">Meurtrissure</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-mort/">Mort</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-musique/">Musique</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_n" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-nature/">Nature</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-neige/">Neige</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_o" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-ocean/">Océan</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-oiseaux/">Oiseaux</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-orgueil/">Orgueil</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_p" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-pardon/">Pardon</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-pauvre/">Pauvre</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-passe/">Passé (Le)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-pays/">Pays</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-pensees/">Pensées</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/petits-poemes-damour/">Petits poèmes d'amour</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-peur/">Peur</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-plainte/">Plainte</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-pleurer/">Pleurer</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-pleurs/">Pleurs</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-la-poesie/">Poésie (La)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-le-poete/">Poète (Le)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-premier-amour/">Premier amour</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-priere/">Prière</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-printemps/">Printemps</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-prostitution/">Prostitution</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_q" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-querelle/">Querelle</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_r" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-raison/">Raison</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-reconciliation/">Réconciliation</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-regrets/">Regrets</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-religion/">Religion</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-rendez-vous/">Rendez-vous (Le)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-repos/">Repos</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-reverie/">Rêverie</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-reves/">Rêves</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-riche/">Riche</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_s" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-saisons/">Saisons</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-secret/">Secret</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-separation/">Séparation</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-silence/">Silence</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-solitaire/">Solitaire</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-solitude/">Solitude</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-songes/">Songes</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-souffrance/">Souffrance</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-soupir/">Soupir</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-sourire/">Sourire</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-souvenirs/">Souvenirs</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-suicide/">Suicide</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_t" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-temps/">Temps (Le)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-tendresse/">Tendresse</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-terre/">Terre</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-tourment/">Tourment</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-tristes/">Triste</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-tristesse/">Tristesse</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_u" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/">0 réponse !</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_v" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-vanite/">Vanité</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-vie/">Vie</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-vieillesse/">Vieillesse</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-vierge/">Vierge</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-vin/">Vin (Le)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-voeux/">Voeux</a>
+                            </li>
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-volupte/">Volupté</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_w" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/">0 réponse !</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_x" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/">0 réponse !</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_y" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/poemes-yeux/">Yeux</a>
+                            </li>
+                        </ul>
+
+                        <ul id="poemes_z" class="reglage-menu">
+                            <li>
+                                <a href="https://www.poesie-francaise.fr/">0 réponse !</a>
+                            </li>
+                        </ul>
+                    </div>

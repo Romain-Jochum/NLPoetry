@@ -1,18 +1,20 @@
 """
 We used web scraping to collect your data to finetune Mistral 7B LLM, here is the code used
-The data is scraped from poesie-francaise.fr on the 21 of April 2024
+The data is scraped from poesie-francaise.fr on the 23 of April 2024
 """
+
 import os
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import re
 
-# Get the directory where the script is located
-script_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Specify the file path relative to the script's directory
-source_code_txt_path = os.path.join(script_dir, "source_code_for_theme.txt")
+"""
+author_links_scraper() has no argument and return a list of tuples containing the theme and its href links from the
+source code of the following web page https://www.poesie-francaise.fr/poemes-themes/ . We could have done it such that 
+it directly scrape from the web page it-self but less work, same result make dum monkey happy 🐒.
+exemple of output: [("love","https://my-super-link/love.com"),("hate","https://my-super-link/hate.com"),...]
+"""
 
 
 def author_links_scraper():
@@ -26,8 +28,6 @@ def author_links_scraper():
 
         # Find all 'ul' elements with class 'reglage-menu'
         ul_elements = soup.find_all('ul', class_='reglage-menu')
-
-        # Initialize an empty list to store theme links
 
         # Loop through each 'ul' element to extract author links
         for ul in ul_elements:
@@ -46,6 +46,17 @@ def author_links_scraper():
         print(f"Error: {e}")
 
 
+"""
+scrape_poem_links() take a list of tuples (or list since it also works with list) containing two strings (theme of the 
+poems and the links of the webpage with all the poems of the same theme).
+exemple of input: [("love","https://my-super-link/love.com"),("hate","https://my-super-link/hate.com"),...]
+
+It will go through each of the links, scrape the poems links in each theme and return a list of tuples containing the 
+links to the poems webpages and its theme.
+exemple of output: [("love","https://my-super-link/love/poem1.com"),("hate","https://my-super-link/hate/poem1.com"),...]
+"""
+
+
 def scrape_poem_links(themes_list):
     poem_list = []
     # Loop through each author link
@@ -55,7 +66,6 @@ def scrape_poem_links(themes_list):
 
         # Find all elements with class "w3-panel"
         poem_elements = soup.find_all('div', class_='w3-panel')
-        theme = soup.find('x')
 
         # Extract poem links
         for poem_element in poem_elements:
@@ -64,7 +74,16 @@ def scrape_poem_links(themes_list):
     return poem_list
 
 
-# Function to check link status and scrape poem content
+"""
+check_and_scrape_poem() take a tuples of two strings.
+exemple of input: ("love","https://my-super-link/love.com")
+
+It will return nothing but will add to the global variables themes, authors, titles, books, years and poems the 
+corresponding information relative to the given poem linked, if one of the information isn't available it will just 
+print the corresponding error in the terminal
+"""
+
+
 def check_and_scrape_poem(poem_link):
     try:
         response = requests.get(poem_link[0])
@@ -101,7 +120,15 @@ def check_and_scrape_poem(poem_link):
         print(f"Error: {e}")
 
 
-# Loop through each poem link and check/scrape content
+"""
+df_builder() take as argument a list of tuples like such:
+exemple of input: [("love","https://my-super-link/love/poem1.com"),("hate","https://my-super-link/hate/poem1.com"),...]
+
+This function will build and return a pandas dataframe containing the information of all the poems (themes, authors, 
+titles, books, years and poems it-self)
+"""
+
+
 def df_builder(poem_list):
     i = 0
     for poem_link in poem_list:
@@ -121,7 +148,12 @@ def df_builder(poem_list):
     return dataframe
 
 
-""" Time for fun"""
+""" 
+Time for fun, here we instantiate the global variables required to run our custom functions and than after we use the 
+functions to build a csv file containing the data we are interested in, they are not yet cleaned at this point
+"""
+
+
 theme_list = []
 authors = []
 books = []
@@ -129,10 +161,9 @@ years = []
 poems = []
 titles = []
 themes = []
+source_code_txt_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "source_code_for_theme.txt")
 
-author_links = author_links_scraper()
-poem_links = scrape_poem_links(author_links)
-df = df_builder(poem_links)
-df.to_csv('poem_data.csv', index=False)
+# the activation line
+df_builder(scrape_poem_links(author_links_scraper())).to_csv('poem_data_with_theme.csv', index=False)
 
 print("DataFrame saved to CSV file.")

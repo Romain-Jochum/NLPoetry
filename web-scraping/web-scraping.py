@@ -2,17 +2,19 @@
 We used web scraping to collect your data to finetune Mistral 7B LLM, here is the code used
 The data is scraped from poesie-francaise.fr on the 21 of April 2024
 """
+
 import os
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import re
 
-# Get the directory where the script is located
-script_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Specify the file path relative to the script's directory
-source_code_txt_path = os.path.join(script_dir, "source_code.txt")
+"""
+author_links_scraper() has no argument and return a list containing the links its from the source code of the following
+web page https://www.poesie-francaise.fr/poemes-themes/ of the poems authors web page. We could have done it such that 
+it directly scrape from the web page it-self but less work, same result make dum monkey happy 🐒.
+exemple of output: ["https://my-super-link/apollinaire.com", "https://my-super-link/baudelaire.com", ...]
+"""
 
 
 def author_links_scraper():
@@ -47,6 +49,16 @@ def author_links_scraper():
         print(f"Error: {e}")
 
 
+"""
+scrape_poem_links() take a list containing strings (the links of the webpage with all the poems of the same theme).
+exemple of input: ["https://my-super-link/apollinaire.com", "https://my-super-link/baudelaire.com", ...]
+
+It will go through each of the links, scrape the poems links from each author and return a list of tuples containing the 
+links to the poems webpages and its theme.
+exemple of output: ["https://my-super-link/apollinaire/poem1.com", "https://my-super-link/apollinaire/poem2.com", ...]
+"""
+
+
 def scrape_poem_links(author_list):
     poem_list = []
     # Loop through each author link
@@ -64,7 +76,16 @@ def scrape_poem_links(author_list):
     return poem_list
 
 
-# Function to check link status and scrape poem content
+"""
+check_and_scrape_poem() take a strings (link) as input.
+exemple of input: "https://my-super-link/apollinaire/poem1.com"
+
+It will return nothing but during the execution it will add to the global variables authors, titles, books, years and 
+poems the corresponding information relative to the given poem linked, if one of the information isn't available it will
+just print the corresponding error in the terminal
+"""
+
+
 def check_and_scrape_poem(poem_link):
     try:
         response = requests.get(poem_link)
@@ -100,7 +121,15 @@ def check_and_scrape_poem(poem_link):
         print(f"Error: {e}")
 
 
-# Loop through each poem link and check/scrape content
+"""
+df_builder() take as argument a list of strings (links) like such:
+exemple of input: ["https://my-super-link/apollinaire/poem1.com", "https://my-super-link/apollinaire/poem2.com", ...]
+
+This function will build and return a pandas dataframe containing the information of all the poems (authors, titles,
+books, years and poems it-self)
+"""
+
+
 def df_builder(poem_list):
     i = 0
     for poem_link in poem_list:
@@ -119,16 +148,21 @@ def df_builder(poem_list):
     return dataframe
 
 
-""" Time for fun"""
+""" 
+Time for fun, here we instantiate the global variables required to run our custom functions and than after we use the 
+functions to build a csv file containing the data we are interested in, they are not yet cleaned at this point
+"""
+
+
+theme_list = []
 authors = []
 books = []
 years = []
 poems = []
 titles = []
+source_code_txt_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "source_code.txt")
 
-author_links = author_links_scraper()
-poem_links = scrape_poem_links(author_links)
-df = df_builder(poem_links)
-df.to_csv('poem_data.csv', index=False)
+# the activation line
+df_builder(scrape_poem_links(author_links_scraper())).to_csv('poem_data.csv', index=False)
 
 print("DataFrame saved to CSV file.")

@@ -1,4 +1,4 @@
-# NLPoetry
+# NLPoetry 📝
 "Infinite Inspiration, Endless Expressions"
 
 ## Description 📋

@@ -27,4 +27,4 @@ The [tutorial notebook](https://github.com/brevdev/notebooks/blob/main/mistral-f
 
 Here is our [finetuned model](https://huggingface.co/Romain-Jochum/Mistral_7B_French_Poetry_Tuning/tree/main). (the link might not accessible, it I because of licences)
 
-The [presentation](https://docs.google.com/presentation/d/1V2oZwTibtwemJEd7ksLPC_z93aWlcLYCAdNTloXmBCQ/edit?usp=sharing).
+The [presentation](https://docs.google.com/presentation/d/1V2oZwTibtwemJEd7ksLPC_z93aWlcLYCAdNTloXmBCQ/edit?usp=sharing) and the [detailed review](https://docs.google.com/document/d/1S_Hr29yUpTz7Lvgs4-ujGEsdIdnX4bwjs2w3LyG-oIA/edit?usp=sharing) of the project.
